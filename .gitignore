@@ -1,0 +1,93 @@
+# ===========================================
+# POOKIEPING - GITIGNORE
+# ===========================================
+
+# ===========================================
+# DEPENDENCIES
+# ===========================================
+node_modules/
+*/node_modules/
+
+# ===========================================
+# BUILD OUTPUT
+# ===========================================
+client/build/
+build/
+dist/
+
+# ===========================================
+# PACKAGE LOCKS (optional - uncomment to track)
+# ===========================================
+package-lock.json
+*/package-lock.json
+
+# ===========================================
+# ENVIRONMENT & SECRETS
+# ===========================================
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+server/.env
+!.env.example
+
+# ===========================================
+# LOGS
+# ===========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================================
+# RUNTIME DATA
+# ===========================================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================================
+# OS FILES
+# ===========================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================================
+# IDE / EDITOR
+# ===========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ===========================================
+# TESTING
+# ===========================================
+coverage/
+.nyc_output/
+
+# ===========================================
+# MISC
+# ===========================================
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# ===========================================
+# MONGODB (if using local data folder)
+# ===========================================
+data/
+mongodb-data/
