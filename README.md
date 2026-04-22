@@ -472,13 +472,13 @@ npm run build
 
 ## 📜 License
 
-MIT License - For educational purposes only.
+MIT License.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This software is provided for **educational purposes only**. The authors are not responsible for any misuse or damage caused by this software. Only use on isolated networks that you own or have permission to test.
+The authors are not responsible for any misuse or damage caused by this software. Only use on isolated networks that you own or have permission to test.
 
 **Never deploy this application on a public network or the internet.**
 
